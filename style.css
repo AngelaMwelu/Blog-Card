@@ -1,14 +1,30 @@
 body{
-  background-color:  hsl(47, 88%, 63%)
-  ;
+  background-color:  hsl(47, 88%, 63%);
+  text-align: left;
+}
+
+
+.container {
+  box-sizing: border-box;
+  border: 2px solid black; 
+  padding: 10px;
+  width: 50%; /* Adjusts the width of the container */
+  margin: 50px auto; /* Centers the container */
+  background-color: white; /* Sets a white background for better readability */
+  border-radius: 15px;
+  box-shadow: 8px 8px ;
+}
+
+img{
+  width: 100%;
+  border-radius: 15px;
 }
 .subject {
+        display: inline-block;
         background-color:hsl(47, 88%, 63%);
-        display: block;
         padding: 5px 10px;
         border-radius: 5px;
         text-align: center;
-        margin: 10px;
         font-weight: bold;
         color: #000;
         width: fit-content;
